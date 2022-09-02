@@ -202,8 +202,13 @@ body{
 
   .minMax{
     padding: 0 10px;
-    width: 100%;
+    width: 250px;
     font-size: 12px;
+  }
+
+  .lilIcon{
+    width: 45px;
+    height: auto;
   }
 
   .lineRange{
