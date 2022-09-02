@@ -178,7 +178,7 @@ body{
   }
 }
 
-@media (max-width:400px) {
+@media (max-width:600px) {
   .tempContainer{
     padding: 1rem;
     margin-top: -60px;
@@ -202,10 +202,16 @@ body{
 
   .minMax{
     padding: 0 10px;
+    width: 100%;
+    font-size: 12px;
   }
 
   .lineRange{
     width: 50px;
+  }
+
+  .tempDataWind{
+    gap: 33px;
   }
 
   .btn{
