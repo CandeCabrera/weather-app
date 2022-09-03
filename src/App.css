@@ -52,17 +52,20 @@ body{
   font-size: 25px;
   margin-bottom: -30px;
   text-shadow: 0 0 3px #b7b8ba;
+  color: #213547;
 }
 
 .country{
   font-weight: bold;
   text-shadow: 0 0 3px #b7b8ba;
+  color: #213547;
 }
 
 .temperature{
  font-size: 55px;
  text-shadow: 0 0 3px #b7b8ba;
  margin-bottom: -30px;
+ color: #213547;
 }
 
 .desc{
@@ -89,7 +92,6 @@ body{
   width: 100%;
   height: 40px;
   padding: 0 15px;
-  color: white;
   font-size: 15px;
 }
 
