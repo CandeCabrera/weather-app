@@ -168,7 +168,7 @@ body{
   color: white;
   border-color: transparent white transparent white transparent white transparent ;
   border-radius: 50%;
-  animation: spin-anim 5s linear infinite;
+  animation: spin-anim 150ms linear infinite;
 }
 
 @keyframes spin-anim {
