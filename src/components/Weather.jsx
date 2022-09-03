@@ -58,7 +58,7 @@ const Weather = () => {
     return (isLoading ? (<Loader/>) :(
         <div className='tempContainer'>
 
-            <img className='bigIcon' src={`http://openweathermap.org/img/wn/${item.weather?.[0].icon}@4x.png`} alt="weather icon" height='280px' />
+            <img className='bigIcon' src={`https://openweathermap.org/img/wn/${item.weather?.[0].icon}@4x.png`} alt="weather icon" height='280px' />
 
             <div className="city">{item.name + ", "} <span className='country'>{item.sys?.country + "."}</span></div>
 
@@ -75,7 +75,7 @@ const Weather = () => {
 
                 <p>Today</p>
 
-                <div className="icon"><img className='lilIcon' src={`http://openweathermap.org/img/wn/${item.weather?.[0].icon}@4x.png`} alt="weather icon" height='50px' /></div>
+                <div className="icon"><img className='lilIcon' src={`https://openweathermap.org/img/wn/${item.weather?.[0].icon}@4x.png`} alt="weather icon" height='50px' /></div>
 
                 <div className="minTemp">{isInCelsius? parseInt((item.main?.temp_min - 273.5) - 2) + " ºC" : parseInt((item.main?.temp_min - 273.5)* (9/5) + 28) + " ºF" }</div>
 
