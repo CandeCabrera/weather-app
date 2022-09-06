@@ -86,13 +86,14 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 8px;
   background: rgba(9, 14, 44, 0.285);
   border-radius: 7px;
   width: 100%;
   height: 40px;
   padding: 0 15px;
   font-size: 15px;
+  color: white;
 }
 
 .lilIcon{
